@@ -58,7 +58,7 @@ var download = function(link, dest, cb) {
 var cb = function(show){  
    if (show) shout.innerHTML = show;
    else {
-       shout.innerHTML = 'Descarregado.\n <a href="#" id="open">Abrir localização do ficheiro.</a>';
+       shout.innerHTML = 'Descarregado.  <a href="#" id="open">Abrir localização do ficheiro.</a>';
        document.querySelector('#open').addEventListener('click', function(event){
                 // event.preventDefault();
                  event.defaultPrevented = true;
