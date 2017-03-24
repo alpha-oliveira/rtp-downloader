@@ -1,0 +1,23 @@
+{
+  "name": "rtp_downloader",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alpha-oliveira/rtp-downloader.git"
+  },
+  "author": {
+    "name": "Antonio Oliveira",
+    "email": "git.alpha.oliveira@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
