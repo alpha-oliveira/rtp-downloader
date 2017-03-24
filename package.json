@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "main": "./main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager ./ rtp-downloader --all --out  ../Releases/rtp-downloader --electron-version 1.6.2 --overwrite --icon=./app/img/favicon.ico"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.6.2"
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
   },
   "dependencies": {
     "open": "0.0.5",
